@@ -138,6 +138,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: var(--main-text-color);
+  color: inherit;
 }
 .hdr .cap:hover,
 .hdr .cap:focus,
