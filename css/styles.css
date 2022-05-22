@@ -42,6 +42,11 @@ body {
 
 /* кнопки на сторінці портфоліо */
 .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
   font-family: inherit;
   border-color: transparent;
   background: var(--color-bg-btn);
@@ -69,7 +74,6 @@ body {
   line-height: 1.87;
 
   font-family: inherit;
-  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
@@ -80,16 +84,13 @@ body {
 .btn-main:focus,
 .btn-main:hover,
 .btn.main:active {
-  background-color: var(--main-white-color);
-  color: var(--main-text-color);
-  border-color: var(--color-footer);
+  opacity: 0.5;
   cursor: pointer;
 }
 
 .bg-footer {
   background-color: var(--color-footer);
   color: var(--main-white-color);
-  /* position: absolute; */
   width: 1600px;
   height: 252px;
   left: 0px;
@@ -105,7 +106,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  /* position: absolute; */
   width: 145px;
   height: 31px;
   left: 215px;
@@ -181,7 +181,6 @@ body {
 
 /* головна сторінка */
 .bg-main {
-  /* position: absolute; */
   width: 1600px;
   height: 600px;
   left: 0px;
@@ -191,12 +190,6 @@ body {
 }
 
 .bg-main h1 {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -227,7 +220,6 @@ body {
   letter-spacing: 0.03em;
 }
 .team h3 {
-  /* position: absolute; */
   width: 264px;
   height: 42px;
   left: 668px;
